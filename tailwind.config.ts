@@ -12,6 +12,10 @@ export default {
         "2xl": "1400px",
       },
     },
+    fontFamily: {
+      mono: ['JetBrains Mono', 'monospace'],
+      display: ['Space Grotesk', 'sans-serif'],
+    },
     extend: {
       colors: {
         border: "hsl(var(--border))",
@@ -46,6 +50,13 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        cyber: {
+          glow: "hsl(var(--cyber-glow))",
+          purple: "hsl(var(--cyber-purple))",
+          amber: "hsl(var(--cyber-amber))",
+          red: "hsl(var(--cyber-red))",
+          blue: "hsl(var(--cyber-blue))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
